@@ -71,16 +71,10 @@ let trace2 = {
 // Create layout
 let layout2 = {
     title: '<b>Bubble Chart</b>',
-    automargin: true,
-    autosize: true,
     showlegend: false,
-        margin: {
-            l: 150,
-            r: 50,
-            b: 50,
-            t: 50,
-            pad: 4      
-}};
+    height: 600,
+    width: 1000
+};
 
 
   // Draw the bubble chart
