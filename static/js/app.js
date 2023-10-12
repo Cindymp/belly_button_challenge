@@ -24,7 +24,7 @@ function bar_chart(sample){
   let top_ten_labels = otu_labels.slice(0,10);;
   console.log(top_ten_labels)
 
-// source for the format of the chart https://plotly.com/javascript/bar-charts/
+// format of the chart
 let trace1 = {
   x : top_ten_values.reverse(),
   y : top_ten_ids.map(x => "OTU" + x).reverse(),
@@ -45,8 +45,6 @@ Plotly.newPlot('bar', data1, layout1);
 
     })}
     
-
-
 
 
 // Create a bubble chart that displays each sample.
